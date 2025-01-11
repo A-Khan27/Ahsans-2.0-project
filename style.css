@@ -509,4 +509,26 @@ input::placeholder{
 
 /* main section ends here */
 
+/* footer section start here  */
+footer{
+    margin-top: 80px;
+    background-color: #FFFFFF;
+}
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:160px 50px;
+    gap: 64px;
+}
+.footer_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:120px;
+    gap:15px;
+} 
+/* footer section ends here */
+  
 
