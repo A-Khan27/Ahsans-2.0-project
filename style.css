@@ -1,0 +1,80 @@
+/* Universal Selector */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Sheared styles */
+.flex-space-around{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bg-color{
+    background-color: #F1F1F3;
+}
+.card{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.card-bg{
+    background-color: #C6E4D6;
+}
+.card-back{
+    background-color: burlywood;
+}
+.donate-btn{
+    background-color: #FFFFFF;
+}
+.donate-bg{
+    background-color: rgba(247, 235, 207, 1);
+}
+.donates-b{
+    background-color: #C6E4D6;
+}
+.donates-bg{
+    background-color: #5490F5;
+}
+
+
+
+/* header section start here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+   
+
+}
+.section-heading{
+    font-size: 32px;
+    font-weight: bold;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    border: 3px solid #006A50;
+    padding:20px 35px;
+    border-radius: 8px;
+    color:#006A50;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+nav li a:hover{
+    background-color: rgb(243, 44, 33);
+}
+/* header section end here */
