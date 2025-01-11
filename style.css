@@ -78,3 +78,161 @@ nav li a:hover{
     background-color: rgb(243, 44, 33);
 }
 /* header section end here */
+/* main section start here */
+
+/* /* invocation styles  */
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:#C6E4D6;
+    margin-top: 20px;
+    align-items: center;
+    height: 560px;
+    border-radius: 16px;
+    padding: 100px 20px;
+}
+.left{
+    margin-left: 59px;
+    margin-top: 117px;
+    margin-bottom: 117px;
+}
+.banner-heading{
+    font-size: 24px;
+    margin-bottom: 16px;
+    line-height: auto;
+    color:#0E0E0E;
+    opacity: 0.5;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+    line-height: auto;
+}
+.button{
+    width:270px;
+    height:56px;
+    padding:20px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #006A50;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.button:hover{
+    background-color: rgb(228, 95, 6);
+}
+
+/* banner card styles */
+.card-container{
+    height: 324px;
+    margin-top: 80px;
+}
+.card-content{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.card-design{
+    width:302px;
+    height:244px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:24px 24px;
+}
+.card-heading{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: auto;
+    margin-bottom: 32px;
+}
+.card-icon{
+    width:64px;
+    height: 64px;
+    
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 12px;
+}
+.card-desc{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+/* the vision of future */
+.future{
+    height: 120px;
+    margin-top: 80px;
+
+}
+.future-heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.future-desc{
+    line-height: 24px;
+    color:#0E0E0E;
+}
+
+/* digital-button styles */
+.digital-card{
+    height: 325px;
+}
+.digital-card-container{
+    display: flex;
+    margin-top: 32px;
+    gap:24px;
+    justify-content: center;
+}
+.digital-card-content{
+    width:410px;
+    height: 325px;
+    padding:25px 25px;
+    border-radius: 16px;
+}
+.digital__card__heading{
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color:rgba(14, 14, 14, 0.8);
+}
+.cards{
+    font-size: 16px;
+    line-height: 24px;
+    color:rgba(14, 14, 14, 0.7);
+}
+.btn-bg{
+    background-color: #5490F5;
+}
+.button-bg{
+    background-color: #09A15C;
+}
+.btns-bg{
+    background-color: #FFC239;
+}
+.btn{
+    width:122px;
+    height:41px;
+    padding:0px 11px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 24px;
+    border: none;
+    color:#fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.btn:hover{
+    background-color: rgb(236, 9, 9);
+}
+
